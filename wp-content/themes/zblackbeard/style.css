@@ -94,7 +94,8 @@ h2.white-text {
 	border-style: solid;
     border-color: #ea4747 !important;
     position: relative;
-    background: rgba(234,71,71,0.4) !important;
+    /* background: rgba(234,71,71,0.4) !important; */
+    background-color: green !important;
 }
 .red-btn:hover {
     border-width: 2px;
