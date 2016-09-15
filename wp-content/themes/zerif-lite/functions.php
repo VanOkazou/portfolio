@@ -221,6 +221,7 @@ function zerif_scripts() {
     wp_enqueue_style('josefin', 'https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic,700', 'v1');
 
     wp_enqueue_style('zerif_responsive_style', get_template_directory_uri() . '/css/responsive.css', array('zerif_style'), 'v1');
+    wp_enqueue_style('van_style', get_template_directory_uri() . '/css/van_style.css', array('zerif_style'), 'v1');
 
     if ( wp_is_mobile() ){
         

@@ -89,7 +89,7 @@
 												
 											echo '</div>';
 
-											echo '<div class="latesnews-content">';
+											/*echo '<div class="latesnews-content">';
 
 												echo '<h3 class="latestnews-title"><a href="'.esc_url( get_permalink() ).'" title="'.esc_attr( get_the_title() ).'">'.wp_kses_post( get_the_title() ).'</a></h3>';
 
@@ -101,7 +101,7 @@
 													the_excerpt();
 												}
 
-											echo '</div>';
+											echo '</div>';*/
 
 										echo '</div><!-- .latestnews-box"> -->';
 

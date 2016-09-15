@@ -10,7 +10,7 @@ get_header(); ?>
 
 	<div class="container">
 
-		<div class="content-left-wrap col-md-9">
+		<div class="content-left-wrap col-md-12">
 
 			<div id="primary" class="content-area">
 
