@@ -260,6 +260,9 @@ function zerif_scripts() {
 
     }
 
+    /* Van script */
+    wp_enqueue_script('van_script', get_template_directory_uri() . '/js/van_script.js', array("jquery", "zerif_knob_nav"), '20120206', true);
+
     /* parallax effect */
     if ( !wp_is_mobile() ){
 
